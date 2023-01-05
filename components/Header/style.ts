@@ -104,7 +104,8 @@ export const Open = styled(MenuIcon)`
 
 export const Close = styled(CloseIcon)`
   color: #fff;
-  font-size: 30px;
+  width: 1.2em;
+  height: 1.2em;
   :hover{
       transform: rotate(-45deg);
       transition: all .4s;
@@ -125,7 +126,7 @@ export const NavbarExtendedContainer = styled.div`
 
 export const NavbarLinkExtended = styled(Link)`
   color: #fff;
-  font-size: 20px;
+  font-size: 2em;
   font-family: 'inter';
   font-weight: 400;
   text-decoration: none;
@@ -133,7 +134,7 @@ export const NavbarLinkExtended = styled(Link)`
   margin-top: 14px;
   padding: 0.8rem 2rem;
   width: 100%;
-
+  text-align: center;
   :hover{
     color: #222;
     background: #fff;

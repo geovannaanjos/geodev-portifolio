@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: 10vh;
     justify-content: space-around;
     background: #222;
+    padding: 1rem;
     color: #fff;
     box-shadow: 10px 0px 4px 0px #ccc;
     @media(max-width: 460px){

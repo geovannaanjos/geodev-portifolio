@@ -35,15 +35,6 @@ export const Grid = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    > ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem 2rem;
-    }
-    > ul > span{
-        font-weight: 100;
-    }
     > h1{
         color: #ccc;
         font-weight: 300;
@@ -53,7 +44,6 @@ export const Grid = styled.section`
         @media(min-width: 920px){
             font-size: 3rem;
         }
-        
     }
     
     @media(min-width: 730px){
@@ -65,14 +55,23 @@ export const Grid = styled.section`
 `
 
 export const Icon = styled.div`
-    margin-right: 5%;
+    display: flex;
+    padding: 15px 2%;
+    width: 12.5%;
+    @media(max-width: 700px){
+        width: 20%;
+    }
     img{
-        max-width: 100%;
         border-radius: 5% 0%;
-        @media(min-width: 700px){
-            max-width: 80%;
-            width: 50%;
-        }
     }
 
+`
+
+export const HardSkills = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    
 `

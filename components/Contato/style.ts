@@ -42,6 +42,7 @@ export const Social = styled.div`
     > h1{
         font-size: 3rem;
         color: #f1f1f1;
+        text-align: center;
         font-weight: 500;
         font-family: 'Work Sans';
     }
@@ -81,9 +82,8 @@ export const Box = styled.div`
     background: #222;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     height: 20vh;
-    width: 100px;
     :hover{
         color: #3e7b69;
     }
