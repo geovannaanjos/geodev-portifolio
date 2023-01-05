@@ -1,6 +1,6 @@
 import { Tooltip } from '@mui/material'
 import React,{useEffect} from 'react'
-import {Container, Grid, Icon} from './style'
+import {Container, Grid, Icon, HardSkills} from './style'
 import Card from '../Body/Card/Card'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -20,7 +20,7 @@ export default function Skills() {
         <p> Resiliência, empatia, criatividade e organização são minhas principais skills. Faço judô e jiu jitsu desde os 6 anos, e muito da dedicação e resiliência que aprendi no dojo, hoje é uma bagagem na minha trajetória. </p>
         <Grid data-aos="fade-right">
             <h1>Hard Skills</h1>
-            <ul>
+            <HardSkills>
                 <Tooltip title="JavaScript" data-aos="flip-left">
                     <Icon>
                         <Image src="/images/js.svg" alt="avatar" width={600} height={400} quality={70} layout="responsive"/> 
@@ -61,8 +61,6 @@ export default function Skills() {
                         <Image src="/images/git.svg" alt="avatar" width={600} height={400} quality={70} layout="responsive"/> 
                     </Icon>
                 </Tooltip>
-            </ul>
-            <ul>
                 <Tooltip title="CSS3" data-aos="flip-left">
                     <Icon>
                         <Image src="/images/css.svg" alt="avatar" width={600} height={400} quality={70} layout="responsive"/> 
@@ -98,7 +96,7 @@ export default function Skills() {
                         <Image src="/images/canva.svg" alt="avatar" width={600} height={400} quality={70} layout="responsive"/> 
                    </Icon>
                 </Tooltip>
-            </ul>
+            </HardSkills>
             <Card/>
         </Grid>
     </Container>
